@@ -190,8 +190,8 @@ code {
 
 /* Dark theme styles for filter button */
 .dark-theme #filters .filter-button {
-    border: 1px solid #ffffff;
-    color: #ffffff;
+    border: 1px solid #333333;
+    color: #333333;
 }
 
 
