@@ -118,18 +118,83 @@
 
 <div class="row" id="dlstudy">
     <div class="col">
-        <h2 clss="mb-5"> 🖇️ Deep learning studies</h2>
+        <h2 clss="mb-5">🖇️ Deep learning study</h2>
         <p></p>
         <div id="filters">
             <button class="filter-button active" data-filter="*">all</button>
+            
+                <button class="filter-button" data-filter="MMFM">MMFM</button>
+            
+                <button class="filter-button" data-filter="LLM">LLM</button>
             
         </div>
         <p></p>
         <div id="projects" class="isotope">
             
+                <div class="project" data-filter="MMFM">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/.jpg" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>Gemini</b>
+            <br />
+            <i><a href="" target="_blank" rel="noopener"></a></i> 
+            
+            <br />
+            
+            <br />
+            
+            
+            
+            
+            
+            <br />
+            <u><b><i>한줄 요약</i></b>:</u> 
+            Deploying deep convolutional neural networks on ultra-low power systems is challenging due to the extremely limited resources. Especially, the memory becomes a bottleneck as the systems put a hard limit on the size of on-chip memory. Because peak memory explosion in the lower layers is critical even in tiny models, the size of an input image should be reduced with sacrifice in accuracy.
+            <span class="collapse" id="MMFM">
+                To overcome this drawback, we propose a novel Raster-Scanning Network, named RaScaNet, inspired by raster-scanning in image sensors. RaScaNet reads only a few rows of pixels at a time using a convolutional neural network and then sequentially learns the representation of the whole image using a recurrent neural network. The proposed method operates on an ultra-low power system without input size reduction; it requires 15.9-24.3x smaller peak memory and 5.3-12.9x smaller weight memory than the state-of-the-art tiny models. Moreover, RaScaNet fully exploits on-chip SRAM and cache memory of the system as the sum of the peak memory and the weight memory does not exceed 60 KB, improving the power efficiency of the system. In our experiments, we demonstrate the binary classification performance of RaScaNet on Visual Wake Words and Pascal VOC datasets.
+            </span> 
+            <span> <a href="#MMFM" data-toggle="collapse" onclick="toggleText(this)" id="link-MMFM">... 세줄 요약</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
+                <div class="project" data-filter="MMFM">
+    <div class="row mb-4">
+        <div class="col-sm-4">
+            <img width="100%" height="auto" class="w-full rounded-lg" src="assets/img/.jpg" />
+        </div>
+        <div class="col-sm-8">
+            
+            <b>GPT-4V</b>
+            <br />
+            <i><a href="" target="_blank" rel="noopener"></a></i> 
+            
+            <br />
+            
+            <br />
+            
+            
+            
+            
+            
+            <br />
+            <u><b><i>한줄 요약</i></b>:</u> 
+            Deploying deep convolutional neural networks on ultra-low power systems is challenging due to the extremely limited resources. Especially, the memory becomes a bottleneck as the systems put a hard limit on the size of on-chip memory. Because peak memory explosion in the lower layers is critical even in tiny models, the size of an input image should be reduced with sacrifice in accuracy.
+            <span class="collapse" id="MMFM">
+                To overcome this drawback, we propose a novel Raster-Scanning Network, named RaScaNet, inspired by raster-scanning in image sensors. RaScaNet reads only a few rows of pixels at a time using a convolutional neural network and then sequentially learns the representation of the whole image using a recurrent neural network. The proposed method operates on an ultra-low power system without input size reduction; it requires 15.9-24.3x smaller peak memory and 5.3-12.9x smaller weight memory than the state-of-the-art tiny models. Moreover, RaScaNet fully exploits on-chip SRAM and cache memory of the system as the sum of the peak memory and the weight memory does not exceed 60 KB, improving the power efficiency of the system. In our experiments, we demonstrate the binary classification performance of RaScaNet on Visual Wake Words and Pascal VOC datasets.
+            </span> 
+            <span> <a href="#MMFM" data-toggle="collapse" onclick="toggleText(this)" id="link-MMFM">... 세줄 요약</a></span>
+        </div>                       
+    </div>
+</div>
+
+            
         </div>
         <p></p>
-        <p id="markdown-container"></p>
     </div>
 </div>
 
@@ -196,7 +261,7 @@
         <script src="js/scripts.js"></script>
     <script>
        document.addEventListener('DOMContentLoaded', function () {
-         const markdownPath = '/_posts/2024-03-23-init.markdown'; // Markdown 파일 경로로 변경하세요
+         const markdownPath = 'D:/github/thesiho.github.io/_posts/2024-03-23-init.markdown'; // Markdown 파일 경로로 변경하세요
          const xhr = new XMLHttpRequest();
          xhr.open('GET', markdownPath, true);
          xhr.onreadystatechange = function () {
