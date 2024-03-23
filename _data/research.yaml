@@ -1,0 +1,61 @@
+categories:
+
+  - data-filter: generative model
+    category-name: generative model
+
+  - data-filter: light-weight
+    category-name: light-weight
+
+
+projects:
+
+  - title: RaScaNet Learning Tiny Models by Raster-Scanning Images
+    gif: assets/img/RasCaNet.jpg
+    conference: CVPR2021
+    conference-web: https://openaccess.thecvf.com
+    status: Accepted
+    authors: J Yoo, <u>Me</u>, et al
+    pdf: https://openaccess.thecvf.com/content/CVPR2021/papers/Yoo_RaScaNet_Learning_Tiny_Models_by_Raster-Scanning_Images_CVPR_2021_paper.pdf
+    code: https://github.com/SAITPublic/rascanet
+    demo: 
+    slides: 
+    talk: 
+    abstract-less: Deploying deep convolutional neural networks on ultra-low power systems is challenging due to the extremely limited resources. Especially, the memory becomes a bottleneck as the systems put a hard limit on the size of on-chip memory. Because peak memory explosion in the lower layers is critical even in tiny models, the size of an input image should be reduced with sacrifice in accuracy.
+    abstract-more:  To overcome this drawback, we propose a novel Raster-Scanning Network, named RaScaNet, inspired by raster-scanning in image sensors. RaScaNet reads only a few rows of pixels at a time using a convolutional neural network and then sequentially learns the representation of the whole image using a recurrent neural network. The proposed method operates on an ultra-low power system without input size reduction; it requires 15.9-24.3x smaller peak memory and 5.3-12.9x smaller weight memory than the state-of-the-art tiny models. Moreover, RaScaNet fully exploits on-chip SRAM and cache memory of the system as the sum of the peak memory and the weight memory does not exceed 60 KB, improving the power efficiency of the system. In our experiments, we demonstrate the binary classification performance of RaScaNet on Visual Wake Words and Pascal VOC datasets.
+    tag: light-weight
+    category: light-weight
+
+
+  - title: Assessing the importance of magnetic resonance contrasts using collaborative generative adversarial networks
+    gif: assets/img/NMI_Colla.jpg
+    conference: Nature Machine Intelligence 2020
+    conference-web: https://www.nature.com/articles/s42256-019-0137-x
+    status: Accepted
+    authors: <u>Me</u>, et al
+    pdf: https://scholar.google.com/scholar_url?url=https://idp.nature.com/authorize/casa%3Fredirect_uri%3Dhttps://www.nature.com/articles/s42256-019-0137-x.pdf%26casa_token%3D-X2Kp1FTX1UAAAAA:vMJI94PD0cnnmnxI3MwZhdhBONWRGnHyVCQw9tOIFBlZ77ny4-4ZZN-J8motE333CqL6t224peEjG_xn0Q&hl=en&sa=T&oi=ucasa&ct=ucasa&ei=P8X-ZabzD8aC6rQP8p6IaA&scisig=AFWwaebzG16bTiLuwMAm-XhDaBkS
+    code:
+    demo: 
+    slides: 
+    talk: 
+    abstract-less: A unique advantage of magnetic resonance imaging (MRI) is its mechanism for generating various image contrasts depending on tissue-specific parameters, which provides useful clinical information. Unfortunately, a complete set of MR contrasts is often difficult to obtain in a real clinical environment. 
+    abstract-more:  Recently, there have been claims that generative models such as generative adversarial networks (GANs) can synthesize MR contrasts that are not acquired. However, the poor scalability of existing GAN-based image synthesis poses a fundamental challenge to understanding the nature of MR contrasts "which contrasts matter, and which cannot be synthesized by generative models?" Here, we show that these questions can be addressed systematically by learning the joint manifold of multiple MR contrasts using collaborative generative adversarial networks. Our experimental results show that the exogenous contrast provided by contrast agents is not replaceable, but endogenous contrasts such as T1 and T2 can be synthesized from other contrasts. These findings provide important guidance for the acquisition-protocol design of MR in clinical environments.
+    tag: generative model
+    category: generative model
+
+
+  - title: CollaGAN Collaborative GAN for Missing Image Data Imputation
+    gif: assets/img/CollaGAN.jpg
+    conference: CVPR2019
+    conference-web: https://openaccess.thecvf.com
+    status: Oral presentation 
+    authors: <u>Me</u>, et al.
+    pdf: https://openaccess.thecvf.com/content_CVPR_2019/html/Lee_CollaGAN_Collaborative_GAN_for_Missing_Image_Data_Imputation_CVPR_2019_paper.html
+    code: https://github.com/ltntdw/tf_CollaGAN
+    demo: 
+    slides: 
+    talk: 
+    abstract-less: In many applications requiring multiple inputs to obtain a desired output, if any of the input data is missing, it often introduces large amounts of bias. Although many techniques have been developed for imputing missing data, the image imputation is still difficult due to complicated nature of natural images. 
+    abstract-more: To address this problem, here we proposed a novel framework for missing image data imputation, called Collaborative Generative Adversarial Network (CollaGAN). CollaGAN convert the image imputation problem to a multi-domain images-to-image translation task so that a single generator and discriminator network can successfully estimate the missing data using the remaining clean data set. We demonstrate that CollaGAN produces the images with a higher visual quality compared to the existing competing approaches in various image imputation tasks.
+    tag: generative model
+    category: generative model
+

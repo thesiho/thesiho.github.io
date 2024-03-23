@@ -1,0 +1,20 @@
+# basic information
+name: Giraffe AI Researcher
+profile-pic: assets/img/new_pic.jpg
+pronunciation: 
+
+# emoji indicator
+emoji: 
+desc-emoji: 
+
+# social links
+scholar: https://scholar.google.com/citations?user=E_QibGEAAAAJ&hl=en&oi=sraJ
+job: https://www.sait.samsung.co.kr/saithome/main/main.do
+researchgate: 
+github:
+youtube: 
+resume: 
+
+# about me
+first-paragraph: 삼성종합기술원 Computer Vision researcher & n년차 골퍼 & <a href="https://thesiho.kr" target="_blank" rel="noopener">시호한의원</a> 무임금직원(?!) 으로 지내고 있습니다. 
+research-interest: Multi Modal Foundation Model, Large Language Model, Visual Object Tracking, NeRF, Generative model, 3D perception, Light-weighted ML, Medical imaging (MRI recon.), Signal processing
