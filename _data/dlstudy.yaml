@@ -10,8 +10,7 @@ projects:
   - title: IXC-2.5 (InternLM-XComposer-2.5)
     gif: "assets/img/IXC-2p5.jpg"
     abstract-less: SenseTime Group이 발표한 Large-VLM. 최대 96k 토큰 입력 길이 지원. RoPE 를 통해 긴 맥락 처리가 가능. Text, single/multi image, 비디오 입력 지원.
-    abstract-more:  7B LLM으로 GPT-4V와 유사한 성능이라고 주장. (1) Ultra-High Resolution Understanding, (2) Fine-Grained Video Understanding, and (3) Multi-Turn Multi-Image Dialogue. 생성능력- (1) Crafting Webpages and (2) Composing High-Quality
- Text-Image Articles.
+    abstract-more:  7B LLM으로 GPT-4V와 유사한 성능이라고 주장. (1) Ultra-High Resolution Understanding, (2) Fine-Grained Video Understanding, and (3) Multi-Turn Multi-Image Dialogue. 생성능력- (1) Crafting Webpages and (2) Composing High-Quality Text-Image Articles.
     tag: MMFM
     category: MMFM
     
