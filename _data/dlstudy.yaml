@@ -17,7 +17,7 @@ projects:
   - title: LLaVA 2.0
     gif: assets/img/.jpg
     abstract-less: 성능 향상. Multi image 및 동영상 입력 지원. Image understanding 능력 강화
-    abstract-more:  (LLaVA1.5: 고해상도 이미지 처리를 위해 vision encoder 업그레이드. LoRA사용. 더 많은 Multimodal 데이터셋 사용.)
+    abstract-more:  (LLaVA1.5- 고해상도 이미지 처리를 위해 vision encoder 업그레이드. LoRA사용. 더 많은 Multimodal 데이터셋 사용.)
     tag: MMFM
     category: MMFM
     
@@ -30,8 +30,8 @@ projects:
     
   - title: LLaMA 1/2/3
     gif: assets/img/.jpg
-    abstract-less: Meta에서 공개한 LLM. GPT-3수준. 7B/65B 모델 제공. 모델+코드 공개를 통해 많은 연구와 응용에 이용됨.
-    abstract-more: (LLaMA2: LoRA등 적용. Muilti-modal 성능 향상. 효율성 개선.) (LLaMA3: TBU)
+    abstract-less: LLaMA1-Meta에서 공개한 LLM. GPT-3수준. 7B/65B 모델 제공. 모델+코드 공개를 통해 많은 연구와 응용에 이용됨.
+    abstract-more: (LLaMA2- LoRA등 적용. Muilti-modal 성능 향상. 효율성 개선.) (LLaMA3- TBU)
     tag: LLM
     category: LLM
     
