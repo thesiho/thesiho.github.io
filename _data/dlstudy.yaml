@@ -30,7 +30,7 @@ projects:
     category: MMFM
     
   - title: LLaMA 1/2/3
-    # gif: assets/img/LLaMA3.jpeg
+    gif: assets/img/_LLaMA3.png
     abstract-less: LLaMA1-Meta에서 공개한 LLM. GPT-3수준. 7B/65B 모델 제공. 모델+코드 공개를 통해 많은 연구와 응용에 이용됨.
     abstract-more: (LLaMA2- LoRA등 적용. Muilti-modal 성능 향상. 효율성 개선.) (LLaMA3- TBU)
     tag: LLM
