@@ -7,31 +7,31 @@ categories:
     category-name: LLM
 
 projects:
-
-  - title: LLaVA
-    # gif: assets/img/.jpg
-    abstract-less: 이미지와 텍스트 입력을 받아서, Vision Question Answering 등의 task가 가능하도록 Visual Instruction Tuning 기법을 제안. 
-    abstract-more:  CLIP과 Vicuna 언어모델을 사용. CC3M 등의 데이터셋을 사용하여 vision-language mapping. Visual input을 받고 LLM에 적절히 넘겨줄 수 있도록 abstractor라는 연결부를 학습하는 stage1. Visual In-tune을 통해 LLM을 학습하는 Stage2로 구성.
-    tag: MMFM
-    category: MMFM
-
-  - title: LLaVA 1.5
-    gif: assets/img/.jpg
-    abstract-less: 고해상도 이미지 처리를 위해 vision encoder 업그레이드. LoRA사용. 더 많은 Multimodal 데이터셋 사용.
-    abstract-more:  ...
-    tag: MMFM
-    category: MMFM
-    
-  - title: LLaVA 2.0
-    gif: assets/img/.jpg
-    abstract-less: 성능 향상. Multi image 및 동영상 입력 지원.
-    abstract-more:  Image understanding 능력 강화
-    tag: MMFM
-    category: MMFM
-    
   - title: InternLM-XComposer-2.5
     gif: assets/img/.jpg
     abstract-less: 최대 96k 토큰 입력 길이 지원. RoPE 를 통해 긴 맥락 처리가 가능. Text, single/multi image, 비디오 입력 지원.
     abstract-more:  초고해상도 이미지 및 비디오 이해 성능 우수. 기사, 웹페이지 생성 등 생성 능력 우수.
     tag: MMFM
     category: MMFM
+    
+  - title: LLaVA 2.0
+    gif: assets/img/.jpg
+    abstract-less: 성능 향상. Multi image 및 동영상 입력 지원. Image understanding 능력 강화
+    abstract-more:  (LLaVA1.5: 고해상도 이미지 처리를 위해 vision encoder 업그레이드. LoRA사용. 더 많은 Multimodal 데이터셋 사용.)
+    tag: MMFM
+    category: MMFM
+    
+  - title: LLaVA
+    # gif: assets/img/.jpg
+    abstract-less: 이미지와 텍스트 입력을 받아서, Vision Question Answering 등의 task가 가능하도록 Visual Instruction Tuning 기법을 제안. 
+    abstract-more:  CLIP과 Vicuna 언어모델을 사용. CC3M 등의 데이터셋을 사용하여 vision-language mapping. Visual input을 받고 LLM에 적절히 넘겨줄 수 있도록 abstractor라는 연결부를 학습하는 stage1. Visual In-tune을 통해 LLM을 학습하는 Stage2로 구성.
+    tag: MMFM
+    category: MMFM
+    
+  - title: LLaMA 1/2/3
+    gif: assets/img/.jpg
+    abstract-less: Meta에서 공개한 LLM. GPT-3수준. 7B/65B 모델 제공. 모델+코드 공개를 통해 많은 연구와 응용에 이용됨.
+    abstract-more: (LLaMA2: LoRA등 적용. Muilti-modal 성능 향상. 효율성 개선.) (LLaMA3: TBU)
+    tag: LLM
+    category: LLM
+    
